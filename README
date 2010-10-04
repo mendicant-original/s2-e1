@@ -1,0 +1,55 @@
+-- RMU SESSION 2 | PROBLEM 1
+
+If in doubt about how to submit, see SUBMISSION_GUIDELINES file.
+
+For this exercise, you'll be writing a email based bot that integrates with a
+web service of your choosing.  This will give you a chance to practice service 
+mashups while simultaneously producing some neat toys for us to play with.
+
+This exercise is pretty open ended, but please follow the guidelines listed below.
+
+== GUIDELINES
+
+1. You can use any Ruby based email framework you'd like.  I'd recommend
+looking at mikel's mail gem, but feel free to try out other libraries.
+
+2. You must integrate with some external application, preferably one that you
+haven't interacted with programatically before.
+
+3. Any service that we all can access via HTTP without charge is fair game.  
+Even if you want to do something like use Mechanize to scrape a site that 
+has no defined service API, that'd be acceptable.
+
+4. You may use any general HTTP tools available in Ruby, I'd recommend looking
+at RestClient, HTTParty and Ruby's open-uri stdlib.  You cannot however, use 
+a gem that is specific to the service you're integrating with. Feel
+free to ask each other for help in figuring out how to wrap your target
+service.
+
+5. All interaction with your bot should be done via email, and you should
+include the word bot in the recipient name.  (i.e. weatherbot@myfancyhost.com)
+
+6. You should use the mailing list to communicate about what service you plan to
+integrate with.  I would prefer if no two students interacted with the same
+service, or even the same type of service.
+
+7. You are encouraged to run your bots live and help each other test things out.
+You're also encouraged to discuss what sorts of messages you plan for your bots
+to accept, so that you can give each other advice on what would be an intuitive
+interface.
+
+8. The bot you build could be simple, or it could be more complex (possibly
+handling registration / authentication / etc.)  But if in doubt, build a simple,
+well written project rather than a complex but messy one.
+
+== EXAMPLES
+
+I send an email to weatherbot@somerealhosthere.com with the zipcode 06512 and 
+it responds with the weather for New Haven in the message body.
+
+I send an email to twitterbot@somerealhosthere.com with the username seacreature
+and it responds with recent tweets from my twitter feed.
+
+== QUESTIONS?
+
+Hit up the mailing list or IRC.
